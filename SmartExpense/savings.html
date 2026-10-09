@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="SmartExpense personal finance dashboard and budget management.">
+    <title>Savings Goals | SmartExpense</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700;800&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="app-layout">
+    <aside class="sidebar">
+        <a href="index.html" class="brand"><span class="brand-mark">$</span><span class="brand-name">Smart<span>Expense</span></span></a>
+        <div class="workspace">
+            <div class="workspace-avatar">U</div>
+            <div class="workspace-copy"><strong>Personal Workspace</strong><span>Free Plan</span></div>
+            <span class="workspace-more">•••</span>
+        </div>
+        <p class="menu-label">WORKSPACE</p>
+        <nav class="navigation" aria-label="Main navigation"><a href="index.html" class="nav-link"><span class="nav-icon">▦</span>Overview</a>
+<a href="transactions.html" class="nav-link"><span class="nav-icon">⇄</span>Transactions</a>
+<a href="budgets.html" class="nav-link"><span class="nav-icon">◷</span>Budgets</a>
+<a href="analytics.html" class="nav-link"><span class="nav-icon">▥</span>Analytics</a>
+<a href="savings.html" class="nav-link active"><span class="nav-icon">♧</span>Savings Goals</a>
+<a href="accounts.html" class="nav-link"><span class="nav-icon">▣</span>My Accounts</a>
+<a href="settings.html" class="nav-link"><span class="nav-icon">⚙</span>Settings</a>
+<a href="help.html" class="nav-link"><span class="nav-icon">?</span>Help & Support</a></nav>
+        <div class="sidebar-bottom">
+            <div class="upgrade-card">
+                <div class="upgrade-star">✦</div>
+                <h3>Know your money better</h3>
+                <p>Review your habits and plan your next financial milestone.</p>
+                <a href="analytics.html">Explore insights <span>→</span></a>
+            </div>
+            <div class="user-profile">
+                <div class="user-avatar">UE</div>
+                <div class="user-copy"><strong>Usman Elahi</strong><span>Personal Account</span></div>
+                <span class="user-menu">•••</span>
+            </div>
+        </div>
+    </aside>
+    <main class="main-content">
+        <header class="topbar">
+            <div class="page-heading">
+                <p class="breadcrumb"><a href="index.html">Workspace</a> / <span>Savings Goals</span></p>
+                <h1>Savings Goals</h1>
+                <p class="page-subtitle">Turn your plans into achievable milestones.</p>
+            </div>
+            <div class="topbar-actions">
+                <span class="date-pill">▦ &nbsp; October 2026</span>
+                <a class="icon-button" href="help.html" aria-label="Help and notifications">♧<span class="notification-dot"></span></a>
+                <a href="accounts.html" class="top-avatar" aria-label="Open my account">UE</a>
+            </div>
+        </header>
+        
+<section class="welcome-banner"><div><span class="eyebrow">SMALL STEPS. BIG MILESTONES.</span><h2>Make your future a priority.</h2><p>Give your goals a name, a target, and a plan to get there.</p></div><div class="welcome-art"><div class="orb one"></div><div class="orb two"></div><div class="floating-card"><span>Total saved</span><strong>Rs. 63k</strong><div class="spark-bars"><i></i><i></i><i></i><i></i><i></i><i></i></div></div></div></section>
+<div class="section-title"><div><h2>Your savings goals</h2><p>Example goals and progress for your personal plans.</p></div><a class="primary-button" href="#new-goal">＋ Create goal</a></div>
+<section class="three-column">
+    <article class="glass goal-card"><div class="goal-top"><span class="goal-symbol">▣</span><span class="status completed">In progress</span></div><h3>New laptop</h3><p>For learning, development, and projects.</p><div class="goal-amount">Rs. 45,000 <small>/ Rs. 80,000</small></div><div class="progress-track"><span class="progress-fill" style="width:56%"></span></div><div class="progress-meta"><span>56% saved</span><span>Rs. 35,000 to go</span></div><a class="view-link" href="#new-goal">View goal details ↗</a></article>
+    <article class="glass goal-card"><div class="goal-top"><span class="goal-symbol" style="color:var(--green)">♧</span><span class="status completed">On track</span></div><h3>Emergency fund</h3><p>Build a cushion for unexpected expenses.</p><div class="goal-amount">Rs. 12,000 <small>/ Rs. 50,000</small></div><div class="progress-track"><span class="progress-fill green" style="width:24%"></span></div><div class="progress-meta"><span>24% saved</span><span>Rs. 38,000 to go</span></div><a class="view-link" href="#new-goal">View goal details ↗</a></article>
+    <article class="glass goal-card"><div class="goal-top"><span class="goal-symbol" style="color:var(--yellow)">✈</span><span class="status pending">Planning</span></div><h3>Future travel</h3><p>Set aside money for a planned trip.</p><div class="goal-amount">Rs. 6,000 <small>/ Rs. 30,000</small></div><div class="progress-track"><span class="progress-fill yellow" style="width:20%"></span></div><div class="progress-meta"><span>20% saved</span><span>Rs. 24,000 to go</span></div><a class="view-link" href="#new-goal">View goal details ↗</a></article>
+</section>
+<section class="two-column">
+    <article class="glass panel"><div class="panel-header"><div><h2>Savings overview</h2><p>Your example savings progress</p></div></div><div class="budget-summary"><div><span>Total goal amount</span><strong>Rs. 160,000</strong></div><div><span>Saved so far</span><strong class="positive">Rs. 63,000</strong></div></div><div class="progress-track"><span class="progress-fill cyan" style="width:39%"></span></div><div class="progress-meta"><span>39% of all goals combined</span><span>Rs. 97,000 remaining</span></div><div class="tip-box"><span class="tip-icon">✦</span><p><strong>Keep the habit simple</strong> A small regular contribution can be easier to maintain than a large one-off target.</p></div></article>
+    <article class="glass panel" id="new-goal"><div class="panel-header"><div><h2>Create a savings goal</h2><p>Form preview — save functionality is not connected.</p></div></div><form class="form-grid" style="margin-top:18px"><div class="form-field full"><label for="goal-title">Goal name</label><input id="goal-title" placeholder="e.g. New laptop"></div><div class="form-field"><label for="goal-target">Target amount (PKR)</label><input id="goal-target" type="number" placeholder="80000"></div><div class="form-field"><label for="goal-current">Already saved (PKR)</label><input id="goal-current" type="number" placeholder="0"></div><div class="form-field full"><label for="goal-date">Target date</label><input id="goal-date" type="date"></div><div class="form-actions form-field full"><button class="primary-button" type="button">Create goal (demo)</button></div></form></article>
+</section>
+
+        <footer class="footer">
+            <p>© 2026 SmartExpense. Personal finance, made clearer.</p>
+            <div class="footer-links"><a href="help.html">Help Center</a><a href="settings.html">Privacy</a><a href="settings.html">Settings</a></div>
+        </footer>
+    </main>
+</div>
+</body>
+</html>

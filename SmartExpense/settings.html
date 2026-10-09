@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="SmartExpense personal finance dashboard and budget management.">
+    <title>Settings | SmartExpense</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700;800&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="app-layout">
+    <aside class="sidebar">
+        <a href="index.html" class="brand"><span class="brand-mark">$</span><span class="brand-name">Smart<span>Expense</span></span></a>
+        <div class="workspace">
+            <div class="workspace-avatar">U</div>
+            <div class="workspace-copy"><strong>Personal Workspace</strong><span>Free Plan</span></div>
+            <span class="workspace-more">•••</span>
+        </div>
+        <p class="menu-label">WORKSPACE</p>
+        <nav class="navigation" aria-label="Main navigation"><a href="index.html" class="nav-link"><span class="nav-icon">▦</span>Overview</a>
+<a href="transactions.html" class="nav-link"><span class="nav-icon">⇄</span>Transactions</a>
+<a href="budgets.html" class="nav-link"><span class="nav-icon">◷</span>Budgets</a>
+<a href="analytics.html" class="nav-link"><span class="nav-icon">▥</span>Analytics</a>
+<a href="savings.html" class="nav-link"><span class="nav-icon">♧</span>Savings Goals</a>
+<a href="accounts.html" class="nav-link"><span class="nav-icon">▣</span>My Accounts</a>
+<a href="settings.html" class="nav-link active"><span class="nav-icon">⚙</span>Settings</a>
+<a href="help.html" class="nav-link"><span class="nav-icon">?</span>Help & Support</a></nav>
+        <div class="sidebar-bottom">
+            <div class="upgrade-card">
+                <div class="upgrade-star">✦</div>
+                <h3>Know your money better</h3>
+                <p>Review your habits and plan your next financial milestone.</p>
+                <a href="analytics.html">Explore insights <span>→</span></a>
+            </div>
+            <div class="user-profile">
+                <div class="user-avatar">UE</div>
+                <div class="user-copy"><strong>Usman Elahi</strong><span>Personal Account</span></div>
+                <span class="user-menu">•••</span>
+            </div>
+        </div>
+    </aside>
+    <main class="main-content">
+        <header class="topbar">
+            <div class="page-heading">
+                <p class="breadcrumb"><a href="index.html">Workspace</a> / <span>Settings</span></p>
+                <h1>Settings</h1>
+                <p class="page-subtitle">Manage your profile and interface preferences.</p>
+            </div>
+            <div class="topbar-actions">
+                <span class="date-pill">▦ &nbsp; October 2026</span>
+                <a class="icon-button" href="help.html" aria-label="Help and notifications">♧<span class="notification-dot"></span></a>
+                <a href="accounts.html" class="top-avatar" aria-label="Open my account">UE</a>
+            </div>
+        </header>
+        
+<section class="welcome-banner"><div><span class="eyebrow">MAKE IT YOURS</span><h2>Preferences & settings</h2><p>Customize the way your personal finance dashboard is presented.</p></div><div class="welcome-art"><div class="orb one"></div><div class="orb two"></div><div class="floating-card"><span>Interface</span><strong>Personalized</strong><div class="spark-bars"><i></i><i></i><i></i><i></i><i></i><i></i></div></div></div></section>
+<section class="two-column">
+    <article class="glass panel"><div class="panel-header"><div><h2>Profile details</h2><p>Sample profile information for this UI prototype.</p></div></div><form class="form-grid" style="margin-top:20px"><div class="form-field"><label for="first-name">First name</label><input id="first-name" value="Usman"></div><div class="form-field"><label for="last-name">Last name</label><input id="last-name" value="Elahi"></div><div class="form-field full"><label for="email">Email address</label><input id="email" type="email" value="usmanaisolutions1234@gmail.com"></div><div class="form-field"><label for="country">Country</label><select id="country"><option>Pakistan</option><option>Other</option></select></div><div class="form-field"><label for="currency">Default currency</label><select id="currency"><option>PKR — Pakistani Rupee</option><option>USD — US Dollar</option></select></div><div class="form-actions form-field full"><button type="button" class="primary-button">Save changes (demo)</button></div></form></article>
+    <article class="glass panel"><div class="panel-header"><div><h2>Appearance</h2><p>Display preferences for your workspace.</p></div></div>
+        <div class="setting-row"><div class="setting-copy"><strong>Dark glass theme</strong><span>Use a dark background and translucent cards.</span></div><button class="toggle on" type="button" aria-label="Dark glass theme enabled"><span></span></button></div>
+        <div class="setting-row"><div class="setting-copy"><strong>Compact dashboard</strong><span>Keep more information visible on screen.</span></div><button class="toggle" type="button" aria-label="Compact dashboard toggle"><span></span></button></div>
+        <div class="setting-row"><div class="setting-copy"><strong>Show financial hints</strong><span>Display sample tips on budgets and goals.</span></div><button class="toggle on" type="button" aria-label="Financial hints enabled"><span></span></button></div>
+        <div class="setting-row"><div class="setting-copy"><strong>Monthly summary</strong><span>Include a summary panel on the overview.</span></div><button class="toggle on" type="button" aria-label="Monthly summary enabled"><span></span></button></div>
+    </article>
+</section>
+<section class="glass panel" style="margin-top:18px"><div class="panel-header"><div><h2>Notifications & privacy</h2><p>Static settings controls for the interface.</p></div></div>
+    <div class="setting-row"><div class="setting-copy"><strong>Budget reminders</strong><span>Reminder when a budget approaches its limit.</span></div><button class="toggle on" type="button" aria-label="Budget reminders enabled"><span></span></button></div>
+    <div class="setting-row"><div class="setting-copy"><strong>Weekly spending recap</strong><span>Review your spending at the end of each week.</span></div><button class="toggle" type="button" aria-label="Weekly recap toggle"><span></span></button></div>
+    <div class="setting-row"><div class="setting-copy"><strong>Private demo data</strong><span>All figures on these pages are example data, not bank-connected records.</span></div><span class="status completed">Enabled</span></div>
+</section>
+
+        <footer class="footer">
+            <p>© 2026 SmartExpense. Personal finance, made clearer.</p>
+            <div class="footer-links"><a href="help.html">Help Center</a><a href="settings.html">Privacy</a><a href="settings.html">Settings</a></div>
+        </footer>
+    </main>
+</div>
+</body>
+</html>

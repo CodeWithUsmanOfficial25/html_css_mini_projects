@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="SmartExpense personal finance dashboard and budget management.">
+    <title>Transactions | SmartExpense</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700;800&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="app-layout">
+    <aside class="sidebar">
+        <a href="index.html" class="brand"><span class="brand-mark">$</span><span class="brand-name">Smart<span>Expense</span></span></a>
+        <div class="workspace">
+            <div class="workspace-avatar">U</div>
+            <div class="workspace-copy"><strong>Personal Workspace</strong><span>Free Plan</span></div>
+            <span class="workspace-more">•••</span>
+        </div>
+        <p class="menu-label">WORKSPACE</p>
+        <nav class="navigation" aria-label="Main navigation"><a href="index.html" class="nav-link"><span class="nav-icon">▦</span>Overview</a>
+<a href="transactions.html" class="nav-link active"><span class="nav-icon">⇄</span>Transactions</a>
+<a href="budgets.html" class="nav-link"><span class="nav-icon">◷</span>Budgets</a>
+<a href="analytics.html" class="nav-link"><span class="nav-icon">▥</span>Analytics</a>
+<a href="savings.html" class="nav-link"><span class="nav-icon">♧</span>Savings Goals</a>
+<a href="accounts.html" class="nav-link"><span class="nav-icon">▣</span>My Accounts</a>
+<a href="settings.html" class="nav-link"><span class="nav-icon">⚙</span>Settings</a>
+<a href="help.html" class="nav-link"><span class="nav-icon">?</span>Help & Support</a></nav>
+        <div class="sidebar-bottom">
+            <div class="upgrade-card">
+                <div class="upgrade-star">✦</div>
+                <h3>Know your money better</h3>
+                <p>Review your habits and plan your next financial milestone.</p>
+                <a href="analytics.html">Explore insights <span>→</span></a>
+            </div>
+            <div class="user-profile">
+                <div class="user-avatar">UE</div>
+                <div class="user-copy"><strong>Usman Elahi</strong><span>Personal Account</span></div>
+                <span class="user-menu">•••</span>
+            </div>
+        </div>
+    </aside>
+    <main class="main-content">
+        <header class="topbar">
+            <div class="page-heading">
+                <p class="breadcrumb"><a href="index.html">Workspace</a> / <span>Transactions</span></p>
+                <h1>Transactions</h1>
+                <p class="page-subtitle">Review income, expenses, and everyday activity.</p>
+            </div>
+            <div class="topbar-actions">
+                <span class="date-pill">▦ &nbsp; October 2026</span>
+                <a class="icon-button" href="help.html" aria-label="Help and notifications">♧<span class="notification-dot"></span></a>
+                <a href="accounts.html" class="top-avatar" aria-label="Open my account">UE</a>
+            </div>
+        </header>
+        
+<div class="section-title"><div><h2>All transactions</h2><p>Review your recent income and spending activity.</p></div><a class="primary-button" href="#add-transaction">＋ Add transaction</a></div>
+<section class="glass panel">
+    <div class="summary-grid" style="margin-bottom:18px">
+        <article class="glass summary-card"><span class="card-label">Money in</span><h2 class="positive">Rs. 65,000</h2><p class="muted small">Recorded income this month</p></article>
+        <article class="glass summary-card"><span class="card-label">Money out</span><h2 class="negative">Rs. 28,750</h2><p class="muted small">Recorded expenses this month</p></article>
+        <article class="glass summary-card"><span class="card-label">Transactions</span><h2>24</h2><p class="muted small">Across all categories</p></article>
+        <article class="glass summary-card"><span class="card-label">Largest expense</span><h2>Rs. 5,200</h2><p class="muted small">Education & course fees</p></article>
+    </div>
+    <div class="search-row"><label class="search-field">⌕ <input type="search" placeholder="Search transaction names..." aria-label="Search transactions"></label><a class="filter-button" href="#transaction-list">☷ Filters</a></div>
+    <div class="table-wrap" id="transaction-list"><table class="data-table"><thead><tr><th>TRANSACTION</th><th>DATE</th><th>CATEGORY</th><th>ACCOUNT</th><th>AMOUNT</th><th>STATUS</th></tr></thead><tbody>
+        <tr><td><div class="transaction-name"><span class="transaction-icon yellow">☕</span><span><strong>Food & Coffee</strong><small>Local cafe</small></span></div></td><td>Oct 09, 2026</td><td>Food</td><td>Cash Wallet</td><td class="negative">− Rs. 850</td><td><span class="status completed">Completed</span></td></tr>
+        <tr><td><div class="transaction-name"><span class="transaction-icon green">↙</span><span><strong>Freelance Payment</strong><small>Client payment</small></span></div></td><td>Oct 08, 2026</td><td>Income</td><td>Bank Account</td><td class="positive">+ Rs. 15,000</td><td><span class="status completed">Completed</span></td></tr>
+        <tr><td><div class="transaction-name"><span class="transaction-icon cyan">↗</span><span><strong>Ride & Fuel</strong><small>Transport</small></span></div></td><td>Oct 07, 2026</td><td>Transport</td><td>Cash Wallet</td><td class="negative">− Rs. 1,200</td><td><span class="status completed">Completed</span></td></tr>
+        <tr><td><div class="transaction-name"><span class="transaction-icon">◇</span><span><strong>Online Shopping</strong><small>Personal items</small></span></div></td><td>Oct 06, 2026</td><td>Shopping</td><td>Debit Card</td><td class="negative">− Rs. 2,450</td><td><span class="status pending">Pending</span></td></tr>
+        <tr><td><div class="transaction-name"><span class="transaction-icon red">▤</span><span><strong>Internet Bill</strong><small>Monthly utility</small></span></div></td><td>Oct 04, 2026</td><td>Bills</td><td>Bank Account</td><td class="negative">− Rs. 2,000</td><td><span class="status completed">Completed</span></td></tr>
+        <tr><td><div class="transaction-name"><span class="transaction-icon green">↙</span><span><strong>Monthly Allowance</strong><small>Family transfer</small></span></div></td><td>Oct 02, 2026</td><td>Income</td><td>Bank Account</td><td class="positive">+ Rs. 50,000</td><td><span class="status completed">Completed</span></td></tr>
+        <tr><td><div class="transaction-name"><span class="transaction-icon yellow">▣</span><span><strong>Course Subscription</strong><small>Online learning</small></span></div></td><td>Oct 01, 2026</td><td>Education</td><td>Debit Card</td><td class="negative">− Rs. 1,500</td><td><span class="status completed">Completed</span></td></tr>
+    </tbody></table></div>
+</section>
+<section class="glass panel" id="add-transaction" style="margin-top:18px">
+    <div class="panel-header"><div><h2>Add a transaction</h2><p>Form layout preview — saving requires JavaScript or a backend.</p></div></div>
+    <form class="form-grid" action="#" method="get" style="margin-top:18px">
+        <div class="form-field"><label for="tx-name">Description</label><input id="tx-name" placeholder="e.g. Grocery shopping"></div>
+        <div class="form-field"><label for="tx-amount">Amount (PKR)</label><input id="tx-amount" type="number" placeholder="0.00"></div>
+        <div class="form-field"><label for="tx-type">Type</label><select id="tx-type"><option>Expense</option><option>Income</option></select></div>
+        <div class="form-field"><label for="tx-category">Category</label><select id="tx-category"><option>Food & Dining</option><option>Transport</option><option>Shopping</option><option>Bills</option><option>Education</option><option>Income</option></select></div>
+        <div class="form-field"><label for="tx-date">Date</label><input id="tx-date" type="date"></div>
+        <div class="form-field"><label for="tx-account">Account</label><select id="tx-account"><option>Cash Wallet</option><option>Bank Account</option><option>Debit Card</option></select></div>
+        <div class="form-actions form-field full"><button class="primary-button" type="button">Save transaction (demo)</button></div>
+    </form>
+</section>
+
+        <footer class="footer">
+            <p>© 2026 SmartExpense. Personal finance, made clearer.</p>
+            <div class="footer-links"><a href="help.html">Help Center</a><a href="settings.html">Privacy</a><a href="settings.html">Settings</a></div>
+        </footer>
+    </main>
+</div>
+</body>
+</html>

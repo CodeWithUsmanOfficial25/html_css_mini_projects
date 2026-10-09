@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="SmartExpense personal finance dashboard and budget management.">
+    <title>My Accounts | SmartExpense</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700;800&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="app-layout">
+    <aside class="sidebar">
+        <a href="index.html" class="brand"><span class="brand-mark">$</span><span class="brand-name">Smart<span>Expense</span></span></a>
+        <div class="workspace">
+            <div class="workspace-avatar">U</div>
+            <div class="workspace-copy"><strong>Personal Workspace</strong><span>Free Plan</span></div>
+            <span class="workspace-more">•••</span>
+        </div>
+        <p class="menu-label">WORKSPACE</p>
+        <nav class="navigation" aria-label="Main navigation"><a href="index.html" class="nav-link"><span class="nav-icon">▦</span>Overview</a>
+<a href="transactions.html" class="nav-link"><span class="nav-icon">⇄</span>Transactions</a>
+<a href="budgets.html" class="nav-link"><span class="nav-icon">◷</span>Budgets</a>
+<a href="analytics.html" class="nav-link"><span class="nav-icon">▥</span>Analytics</a>
+<a href="savings.html" class="nav-link"><span class="nav-icon">♧</span>Savings Goals</a>
+<a href="accounts.html" class="nav-link active"><span class="nav-icon">▣</span>My Accounts</a>
+<a href="settings.html" class="nav-link"><span class="nav-icon">⚙</span>Settings</a>
+<a href="help.html" class="nav-link"><span class="nav-icon">?</span>Help & Support</a></nav>
+        <div class="sidebar-bottom">
+            <div class="upgrade-card">
+                <div class="upgrade-star">✦</div>
+                <h3>Know your money better</h3>
+                <p>Review your habits and plan your next financial milestone.</p>
+                <a href="analytics.html">Explore insights <span>→</span></a>
+            </div>
+            <div class="user-profile">
+                <div class="user-avatar">UE</div>
+                <div class="user-copy"><strong>Usman Elahi</strong><span>Personal Account</span></div>
+                <span class="user-menu">•••</span>
+            </div>
+        </div>
+    </aside>
+    <main class="main-content">
+        <header class="topbar">
+            <div class="page-heading">
+                <p class="breadcrumb"><a href="index.html">Workspace</a> / <span>My Accounts</span></p>
+                <h1>My Accounts</h1>
+                <p class="page-subtitle">View the accounts represented in your dashboard.</p>
+            </div>
+            <div class="topbar-actions">
+                <span class="date-pill">▦ &nbsp; October 2026</span>
+                <a class="icon-button" href="help.html" aria-label="Help and notifications">♧<span class="notification-dot"></span></a>
+                <a href="accounts.html" class="top-avatar" aria-label="Open my account">UE</a>
+            </div>
+        </header>
+        
+<section class="welcome-banner"><div><span class="eyebrow">YOUR MONEY, IN ONE PLACE</span><h2>My accounts</h2><p>See your sample balances and keep track of where your money is held.</p></div><div class="welcome-art"><div class="orb one"></div><div class="orb two"></div><div class="floating-card"><span>Combined balance</span><strong>Rs. 84.2k</strong><div class="spark-bars"><i></i><i></i><i></i><i></i><i></i><i></i></div></div></div></section>
+<section class="summary-grid">
+    <article class="glass summary-card"><span class="card-label">Combined balance</span><h2>Rs. 84,250</h2><p class="muted small">Across 3 sample accounts</p></article>
+    <article class="glass summary-card"><span class="card-label">Bank account</span><h2>Rs. 62,000</h2><p class="muted small">Main savings and income</p></article>
+    <article class="glass summary-card"><span class="card-label">Cash wallet</span><h2>Rs. 7,250</h2><p class="muted small">Everyday spending</p></article>
+    <article class="glass summary-card"><span class="card-label">Debit card</span><h2>Rs. 15,000</h2><p class="muted small">Available card balance</p></article>
+</section>
+<div class="section-title"><div><h2>Connected accounts</h2><p>Illustrative accounts for the interface prototype.</p></div><a class="primary-button" href="#add-account">＋ Add account</a></div>
+<section class="three-column">
+    <article class="glass account-card"><div class="account-brand"><span class="brand-mini">BK</span><span class="status completed">Connected</span></div><h3>Primary Bank Account</h3><p class="account-type">Savings account</p><div class="account-balance">Rs. 62,000</div><div class="account-number">•••• &nbsp; •••• &nbsp; 4821</div></article>
+    <article class="glass account-card"><div class="account-brand"><span class="brand-mini" style="color:var(--cyan);background:#61e8f516">CW</span><span class="status completed">Active</span></div><h3>Cash Wallet</h3><p class="account-type">Cash account</p><div class="account-balance">Rs. 7,250</div><div class="account-number">PERSONAL · PKR</div></article>
+    <article class="glass account-card"><div class="account-brand"><span class="brand-mini" style="color:var(--green);background:#61e6b216">DC</span><span class="status completed">Active</span></div><h3>Everyday Debit Card</h3><p class="account-type">Card account</p><div class="account-balance">Rs. 15,000</div><div class="account-number">•••• &nbsp; •••• &nbsp; 7306</div></article>
+</section>
+<section class="glass panel" id="add-account"><div class="panel-header"><div><h2>Add an account</h2><p>Form preview. This prototype does not connect to any bank.</p></div></div><form class="form-grid" style="margin-top:18px"><div class="form-field"><label for="account-name">Account name</label><input id="account-name" placeholder="e.g. Student savings"></div><div class="form-field"><label for="account-type">Account type</label><select id="account-type"><option>Bank account</option><option>Cash wallet</option><option>Debit card</option><option>Other</option></select></div><div class="form-field"><label for="account-balance">Opening balance (PKR)</label><input id="account-balance" type="number" placeholder="0"></div><div class="form-field"><label for="account-currency">Currency</label><select id="account-currency"><option>PKR — Pakistani Rupee</option></select></div><div class="form-actions form-field full"><button class="primary-button" type="button">Add account (demo)</button></div></form></section>
+
+        <footer class="footer">
+            <p>© 2026 SmartExpense. Personal finance, made clearer.</p>
+            <div class="footer-links"><a href="help.html">Help Center</a><a href="settings.html">Privacy</a><a href="settings.html">Settings</a></div>
+        </footer>
+    </main>
+</div>
+</body>
+</html>

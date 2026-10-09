@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="SmartExpense personal finance dashboard and budget management.">
+    <title>Financial Overview | SmartExpense</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700;800&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="app-layout">
+    <aside class="sidebar">
+        <a href="index.html" class="brand"><span class="brand-mark">$</span><span class="brand-name">Smart<span>Expense</span></span></a>
+        <div class="workspace">
+            <div class="workspace-avatar">U</div>
+            <div class="workspace-copy"><strong>Personal Workspace</strong><span>Free Plan</span></div>
+            <span class="workspace-more">•••</span>
+        </div>
+        <p class="menu-label">WORKSPACE</p>
+        <nav class="navigation" aria-label="Main navigation"><a href="index.html" class="nav-link active"><span class="nav-icon">▦</span>Overview</a>
+<a href="transactions.html" class="nav-link"><span class="nav-icon">⇄</span>Transactions</a>
+<a href="budgets.html" class="nav-link"><span class="nav-icon">◷</span>Budgets</a>
+<a href="analytics.html" class="nav-link"><span class="nav-icon">▥</span>Analytics</a>
+<a href="savings.html" class="nav-link"><span class="nav-icon">♧</span>Savings Goals</a>
+<a href="accounts.html" class="nav-link"><span class="nav-icon">▣</span>My Accounts</a>
+<a href="settings.html" class="nav-link"><span class="nav-icon">⚙</span>Settings</a>
+<a href="help.html" class="nav-link"><span class="nav-icon">?</span>Help & Support</a></nav>
+        <div class="sidebar-bottom">
+            <div class="upgrade-card">
+                <div class="upgrade-star">✦</div>
+                <h3>Know your money better</h3>
+                <p>Review your habits and plan your next financial milestone.</p>
+                <a href="analytics.html">Explore insights <span>→</span></a>
+            </div>
+            <div class="user-profile">
+                <div class="user-avatar">UE</div>
+                <div class="user-copy"><strong>Usman Elahi</strong><span>Personal Account</span></div>
+                <span class="user-menu">•••</span>
+            </div>
+        </div>
+    </aside>
+    <main class="main-content">
+        <header class="topbar">
+            <div class="page-heading">
+                <p class="breadcrumb"><a href="index.html">Workspace</a> / <span>Financial Overview</span></p>
+                <h1>Financial Overview</h1>
+                <p class="page-subtitle">Track your money. Build better habits.</p>
+            </div>
+            <div class="topbar-actions">
+                <span class="date-pill">▦ &nbsp; October 2026</span>
+                <a class="icon-button" href="help.html" aria-label="Help and notifications">♧<span class="notification-dot"></span></a>
+                <a href="accounts.html" class="top-avatar" aria-label="Open my account">UE</a>
+            </div>
+        </header>
+        
+<section class="welcome-banner">
+    <div><span class="eyebrow">YOUR MONEY, YOUR FUTURE</span><h2>Good evening, Usman <span class="cyan">✦</span></h2><p>Here's your financial snapshot for October. Small, consistent steps build stronger money habits.</p></div>
+    <div class="welcome-art" aria-hidden="true"><div class="orb one"></div><div class="orb two"></div><div class="floating-card"><span>Monthly savings</span><strong>+18.5%</strong><div class="spark-bars"><i></i><i></i><i></i><i></i><i></i><i></i></div></div></div>
+</section>
+<section class="summary-grid" aria-label="Financial summary">
+    <article class="glass summary-card"><div class="card-top"><span class="card-label">Total Balance</span><span class="metric-icon purple-bg">◈</span></div><h2>Rs. 84,250</h2><div class="card-bottom"><span class="trend positive">↗ 8.2%</span><span class="muted">vs. last month</span></div><svg class="mini-chart purple-line" viewBox="0 0 240 28" preserveAspectRatio="none"><path d="M0 23 C20 20 27 7 45 15 S72 24 90 11 S115 17 135 8 S160 19 181 7 S220 14 240 2"/></svg></article>
+    <article class="glass summary-card"><div class="card-top"><span class="card-label">Total Income</span><span class="metric-icon green-bg">↙</span></div><h2>Rs. 65,000</h2><div class="card-bottom"><span class="trend positive">↗ 12.4%</span><span class="muted">vs. last month</span></div><svg class="mini-chart green-line" viewBox="0 0 240 28" preserveAspectRatio="none"><path d="M0 24 C25 20 35 9 51 17 S81 11 97 17 S124 5 144 13 S170 10 192 6 S220 10 240 2"/></svg></article>
+    <article class="glass summary-card"><div class="card-top"><span class="card-label">Total Expenses</span><span class="metric-icon red-bg">↗</span></div><h2>Rs. 28,750</h2><div class="card-bottom"><span class="trend negative">↗ 4.6%</span><span class="muted">vs. last month</span></div><svg class="mini-chart red-line" viewBox="0 0 240 28" preserveAspectRatio="none"><path d="M0 5 C20 12 35 4 50 16 S75 10 94 19 S118 9 140 22 S165 14 185 19 S220 25 240 17"/></svg></article>
+    <article class="glass summary-card"><div class="card-top"><span class="card-label">Monthly Savings</span><span class="metric-icon cyan-bg">♧</span></div><h2>Rs. 36,250</h2><div class="card-bottom"><span class="trend positive">↗ 18.5%</span><span class="muted">vs. last month</span></div><svg class="mini-chart cyan-line" viewBox="0 0 240 28" preserveAspectRatio="none"><path d="M0 24 C20 20 35 23 50 12 S80 18 95 9 S120 17 142 8 S171 15 192 4 S220 9 240 1"/></svg></article>
+</section>
+<section class="two-column">
+    <article class="glass panel">
+        <div class="panel-header"><div><h2>Income vs. Expenses</h2><p>Your six-month cash flow overview</p></div><a class="select-button" href="analytics.html">View analytics ↗</a></div>
+        <div class="chart-legend"><span class="legend-item"><i class="legend-dot"></i> Income</span><span class="legend-item"><i class="legend-dot cyan"></i> Expenses</span></div>
+        <div class="bar-chart"><div class="y-labels"><span>80k</span><span>60k</span><span>40k</span><span>20k</span><span>0</span></div><div class="chart-area"><div class="grid-lines"><span></span><span></span><span></span><span></span><span></span></div><div class="chart-columns">
+            <div class="month-group"><div class="bar-pair"><i class="bar income-bar" style="height:48%"></i><i class="bar expense-bar" style="height:28%"></i></div><span class="month-label">May</span></div>
+            <div class="month-group"><div class="bar-pair"><i class="bar income-bar" style="height:62%"></i><i class="bar expense-bar" style="height:35%"></i></div><span class="month-label">Jun</span></div>
+            <div class="month-group"><div class="bar-pair"><i class="bar income-bar" style="height:55%"></i><i class="bar expense-bar" style="height:39%"></i></div><span class="month-label">Jul</span></div>
+            <div class="month-group"><div class="bar-pair"><i class="bar income-bar" style="height:78%"></i><i class="bar expense-bar" style="height:44%"></i></div><span class="month-label">Aug</span></div>
+            <div class="month-group"><div class="bar-pair"><i class="bar income-bar" style="height:67%"></i><i class="bar expense-bar" style="height:38%"></i></div><span class="month-label">Sep</span></div>
+            <div class="month-group current-month"><div class="bar-pair"><i class="bar income-bar" style="height:84%"></i><i class="bar expense-bar" style="height:37%"></i></div><span class="month-label">Oct</span></div>
+        </div></div></div>
+    </article>
+    <article class="glass panel">
+        <div class="panel-header"><div><h2>Expense Breakdown</h2><p>Where your money goes</p></div><a class="view-link" href="analytics.html">Details ↗</a></div>
+        <div class="donut-wrap"><div class="donut-chart"><div class="donut-center"><span>Total spent</span><strong>28.7k</strong><small>PKR</small></div></div></div>
+        <div class="legend-list">
+            <div class="legend-row"><span class="left"><i class="legend-dot"></i>Food & Dining</span><strong>Rs. 9,200 <small>32%</small></strong></div>
+            <div class="legend-row"><span class="left"><i class="legend-dot cyan"></i>Transport</span><strong>Rs. 6,900 <small>24%</small></strong></div>
+            <div class="legend-row"><span class="left"><i class="legend-dot" style="background:var(--yellow)"></i>Shopping</span><strong>Rs. 7,475 <small>26%</small></strong></div>
+            <div class="legend-row"><span class="left"><i class="legend-dot" style="background:var(--red)"></i>Bills & Other</span><strong>Rs. 5,175 <small>18%</small></strong></div>
+        </div>
+    </article>
+</section>
+<section class="glass panel">
+    <div class="panel-header"><div><h2>Recent Transactions</h2><p>Your latest financial activity</p></div><a class="view-link" href="transactions.html">View all transactions →</a></div>
+    <div class="table-wrap"><table class="data-table"><thead><tr><th>TRANSACTION</th><th>DATE</th><th>CATEGORY</th><th>AMOUNT</th><th>STATUS</th></tr></thead><tbody>
+        <tr><td><div class="transaction-name"><span class="transaction-icon yellow">☕</span><span><strong>Food & Coffee</strong><small>Local cafe</small></span></div></td><td>Oct 09, 2026</td><td>Food</td><td class="negative">− Rs. 850</td><td><span class="status completed">Completed</span></td></tr>
+        <tr><td><div class="transaction-name"><span class="transaction-icon green">↙</span><span><strong>Freelance Payment</strong><small>Client payment</small></span></div></td><td>Oct 08, 2026</td><td>Income</td><td class="positive">+ Rs. 15,000</td><td><span class="status completed">Completed</span></td></tr>
+        <tr><td><div class="transaction-name"><span class="transaction-icon cyan">↗</span><span><strong>Ride & Fuel</strong><small>Transport expense</small></span></div></td><td>Oct 07, 2026</td><td>Transport</td><td class="negative">− Rs. 1,200</td><td><span class="status completed">Completed</span></td></tr>
+        <tr><td><div class="transaction-name"><span class="transaction-icon">◇</span><span><strong>Online Shopping</strong><small>Personal items</small></span></div></td><td>Oct 06, 2026</td><td>Shopping</td><td class="negative">− Rs. 2,450</td><td><span class="status pending">Pending</span></td></tr>
+    </tbody></table></div>
+</section>
+<section class="glass savings-banner">
+    <div class="savings-icon">♧</div><div class="savings-copy"><span class="eyebrow">YOUR NEXT MILESTONE</span><h2>Saving for a new laptop</h2><p>Every small step takes you closer to your goal.</p></div>
+    <div class="savings-progress"><div class="progress-meta"><strong>Rs. 45,000</strong><span>of Rs. 80,000</span></div><div class="progress-track"><span class="progress-fill cyan" style="width:56%"></span></div><small>56% completed</small></div>
+    <a class="view-link" href="savings.html">Open goals ↗</a>
+</section>
+
+        <footer class="footer">
+            <p>© 2026 SmartExpense. Personal finance, made clearer.</p>
+            <div class="footer-links"><a href="help.html">Help Center</a><a href="settings.html">Privacy</a><a href="settings.html">Settings</a></div>
+        </footer>
+    </main>
+</div>
+</body>
+</html>

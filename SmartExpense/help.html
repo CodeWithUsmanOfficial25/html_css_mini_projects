@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="SmartExpense personal finance dashboard and budget management.">
+    <title>Help & Support | SmartExpense</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700;800&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="app-layout">
+    <aside class="sidebar">
+        <a href="index.html" class="brand"><span class="brand-mark">$</span><span class="brand-name">Smart<span>Expense</span></span></a>
+        <div class="workspace">
+            <div class="workspace-avatar">U</div>
+            <div class="workspace-copy"><strong>Personal Workspace</strong><span>Free Plan</span></div>
+            <span class="workspace-more">•••</span>
+        </div>
+        <p class="menu-label">WORKSPACE</p>
+        <nav class="navigation" aria-label="Main navigation"><a href="index.html" class="nav-link"><span class="nav-icon">▦</span>Overview</a>
+<a href="transactions.html" class="nav-link"><span class="nav-icon">⇄</span>Transactions</a>
+<a href="budgets.html" class="nav-link"><span class="nav-icon">◷</span>Budgets</a>
+<a href="analytics.html" class="nav-link"><span class="nav-icon">▥</span>Analytics</a>
+<a href="savings.html" class="nav-link"><span class="nav-icon">♧</span>Savings Goals</a>
+<a href="accounts.html" class="nav-link"><span class="nav-icon">▣</span>My Accounts</a>
+<a href="settings.html" class="nav-link"><span class="nav-icon">⚙</span>Settings</a>
+<a href="help.html" class="nav-link active"><span class="nav-icon">?</span>Help & Support</a></nav>
+        <div class="sidebar-bottom">
+            <div class="upgrade-card">
+                <div class="upgrade-star">✦</div>
+                <h3>Know your money better</h3>
+                <p>Review your habits and plan your next financial milestone.</p>
+                <a href="analytics.html">Explore insights <span>→</span></a>
+            </div>
+            <div class="user-profile">
+                <div class="user-avatar">UE</div>
+                <div class="user-copy"><strong>Usman Elahi</strong><span>Personal Account</span></div>
+                <span class="user-menu">•••</span>
+            </div>
+        </div>
+    </aside>
+    <main class="main-content">
+        <header class="topbar">
+            <div class="page-heading">
+                <p class="breadcrumb"><a href="index.html">Workspace</a> / <span>Help & Support</span></p>
+                <h1>Help & Support</h1>
+                <p class="page-subtitle">Find answers and learn how to use SmartExpense.</p>
+            </div>
+            <div class="topbar-actions">
+                <span class="date-pill">▦ &nbsp; October 2026</span>
+                <a class="icon-button" href="help.html" aria-label="Help and notifications">♧<span class="notification-dot"></span></a>
+                <a href="accounts.html" class="top-avatar" aria-label="Open my account">UE</a>
+            </div>
+        </header>
+        
+<section class="welcome-banner"><div><span class="eyebrow">WE'RE HERE TO HELP</span><h2>How can we help you?</h2><p>Explore common questions and find your way around the SmartExpense prototype.</p></div><div class="welcome-art"><div class="orb one"></div><div class="orb two"></div><div class="floating-card"><span>Support center</span><strong>Here for you</strong><div class="spark-bars"><i></i><i></i><i></i><i></i><i></i><i></i></div></div></div></section>
+<section class="three-column">
+    <article class="glass help-card"><div class="help-icon">▦</div><h3>Getting started</h3><p>Learn what each dashboard section is designed to show and how to navigate between pages.</p><a href="index.html">Open overview →</a></article>
+    <article class="glass help-card"><div class="help-icon">◷</div><h3>Budgets & spending</h3><p>Understand category budgets, spending progress, and the meaning of the sample numbers.</p><a href="budgets.html">Explore budgets →</a></article>
+    <article class="glass help-card"><div class="help-icon">♧</div><h3>Savings goals</h3><p>See how target amounts and progress indicators can help you plan future purchases.</p><a href="savings.html">Explore goals →</a></article>
+</section>
+<section class="two-column">
+    <article class="glass panel"><div class="panel-header"><div><h2>Frequently asked questions</h2><p>Important notes about this portfolio project.</p></div></div>
+        <div class="setting-row"><div class="setting-copy"><strong>Are these real bank balances?</strong><span>No. All financial amounts are illustrative sample data.</span></div><span class="muted">＋</span></div>
+        <div class="setting-row"><div class="setting-copy"><strong>Can I save a new transaction?</strong><span>Not yet. Forms show the intended layout but need JavaScript or a backend to store data.</span></div><span class="muted">＋</span></div>
+        <div class="setting-row"><div class="setting-copy"><strong>Are accounts connected to a bank?</strong><span>No. This project does not connect to banks or process payments.</span></div><span class="muted">＋</span></div>
+        <div class="setting-row"><div class="setting-copy"><strong>Can I use it on a phone?</strong><span>Yes. The layout adapts to smaller screens using CSS media queries.</span></div><span class="muted">＋</span></div>
+    </article>
+    <article class="glass panel"><div class="panel-header"><div><h2>Contact & feedback</h2><p>Contact form design preview.</p></div></div><form class="form-grid" style="margin-top:18px"><div class="form-field full"><label for="help-name">Your name</label><input id="help-name" placeholder="Enter your name"></div><div class="form-field full"><label for="help-email">Email</label><input id="help-email" type="email" placeholder="you@example.com"></div><div class="form-field full"><label for="help-message">How can we help?</label><textarea id="help-message" placeholder="Write your message..."></textarea></div><div class="form-actions form-field full"><button class="primary-button" type="button">Send message (demo)</button></div></form></article>
+</section>
+
+        <footer class="footer">
+            <p>© 2026 SmartExpense. Personal finance, made clearer.</p>
+            <div class="footer-links"><a href="help.html">Help Center</a><a href="settings.html">Privacy</a><a href="settings.html">Settings</a></div>
+        </footer>
+    </main>
+</div>
+</body>
+</html>

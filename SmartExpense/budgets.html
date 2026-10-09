@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="SmartExpense personal finance dashboard and budget management.">
+    <title>Budgets | SmartExpense</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700;800&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="app-layout">
+    <aside class="sidebar">
+        <a href="index.html" class="brand"><span class="brand-mark">$</span><span class="brand-name">Smart<span>Expense</span></span></a>
+        <div class="workspace">
+            <div class="workspace-avatar">U</div>
+            <div class="workspace-copy"><strong>Personal Workspace</strong><span>Free Plan</span></div>
+            <span class="workspace-more">•••</span>
+        </div>
+        <p class="menu-label">WORKSPACE</p>
+        <nav class="navigation" aria-label="Main navigation"><a href="index.html" class="nav-link"><span class="nav-icon">▦</span>Overview</a>
+<a href="transactions.html" class="nav-link"><span class="nav-icon">⇄</span>Transactions</a>
+<a href="budgets.html" class="nav-link active"><span class="nav-icon">◷</span>Budgets</a>
+<a href="analytics.html" class="nav-link"><span class="nav-icon">▥</span>Analytics</a>
+<a href="savings.html" class="nav-link"><span class="nav-icon">♧</span>Savings Goals</a>
+<a href="accounts.html" class="nav-link"><span class="nav-icon">▣</span>My Accounts</a>
+<a href="settings.html" class="nav-link"><span class="nav-icon">⚙</span>Settings</a>
+<a href="help.html" class="nav-link"><span class="nav-icon">?</span>Help & Support</a></nav>
+        <div class="sidebar-bottom">
+            <div class="upgrade-card">
+                <div class="upgrade-star">✦</div>
+                <h3>Know your money better</h3>
+                <p>Review your habits and plan your next financial milestone.</p>
+                <a href="analytics.html">Explore insights <span>→</span></a>
+            </div>
+            <div class="user-profile">
+                <div class="user-avatar">UE</div>
+                <div class="user-copy"><strong>Usman Elahi</strong><span>Personal Account</span></div>
+                <span class="user-menu">•••</span>
+            </div>
+        </div>
+    </aside>
+    <main class="main-content">
+        <header class="topbar">
+            <div class="page-heading">
+                <p class="breadcrumb"><a href="index.html">Workspace</a> / <span>Budgets</span></p>
+                <h1>Budgets</h1>
+                <p class="page-subtitle">Plan spending with confidence and clarity.</p>
+            </div>
+            <div class="topbar-actions">
+                <span class="date-pill">▦ &nbsp; October 2026</span>
+                <a class="icon-button" href="help.html" aria-label="Help and notifications">♧<span class="notification-dot"></span></a>
+                <a href="accounts.html" class="top-avatar" aria-label="Open my account">UE</a>
+            </div>
+        </header>
+        
+<section class="welcome-banner"><div><span class="eyebrow">PLAN WITH PURPOSE</span><h2>Your budget, in balance.</h2><p>Set spending limits, watch your progress, and leave room for what matters most.</p></div><div class="welcome-art"><div class="orb one"></div><div class="orb two"></div><div class="floating-card"><span>Budget remaining</span><strong>Rs. 11.2k</strong><div class="spark-bars"><i></i><i></i><i></i><i></i><i></i><i></i></div></div></div></section>
+<section class="three-column">
+    <article class="glass summary-card"><div class="card-top"><span class="card-label">Monthly budget</span><span class="metric-icon purple-bg">◷</span></div><h2>Rs. 40,000</h2><p class="muted small">Your planned spending limit</p></article>
+    <article class="glass summary-card"><div class="card-top"><span class="card-label">Spent so far</span><span class="metric-icon red-bg">↗</span></div><h2>Rs. 28,750</h2><p class="muted small">72% of your overall budget</p></article>
+    <article class="glass summary-card"><div class="card-top"><span class="card-label">Available</span><span class="metric-icon green-bg">✓</span></div><h2 class="positive">Rs. 11,250</h2><p class="muted small">Available until month end</p></article>
+</section>
+<section class="two-column">
+    <article class="glass panel"><div class="panel-header"><div><h2>Category budgets</h2><p>Progress against each spending limit</p></div><a class="outline-button" href="#create-budget">＋ New budget</a></div>
+        <div class="budget-list">
+            <div><div class="budget-item-top"><span class="budget-category"><span class="transaction-icon yellow">☕</span>Food & Dining</span><span class="budget-values">Rs. 9,200 <small>/ 12,000</small></span></div><div class="progress-track"><span class="progress-fill" style="width:77%"></span></div><div class="progress-meta"><span>77% used</span><span>Rs. 2,800 left</span></div></div>
+            <div><div class="budget-item-top"><span class="budget-category"><span class="transaction-icon cyan">↗</span>Transport</span><span class="budget-values">Rs. 6,900 <small>/ 8,000</small></span></div><div class="progress-track"><span class="progress-fill cyan" style="width:86%"></span></div><div class="progress-meta"><span>86% used</span><span>Rs. 1,100 left</span></div></div>
+            <div><div class="budget-item-top"><span class="budget-category"><span class="transaction-icon" style="color:var(--yellow)">◇</span>Shopping</span><span class="budget-values">Rs. 7,475 <small>/ 8,000</small></span></div><div class="progress-track"><span class="progress-fill yellow" style="width:93%"></span></div><div class="progress-meta warning"><span>93% used</span><span>Rs. 525 left</span></div></div>
+            <div><div class="budget-item-top"><span class="budget-category"><span class="transaction-icon red">▤</span>Bills & Other</span><span class="budget-values">Rs. 5,175 <small>/ 12,000</small></span></div><div class="progress-track"><span class="progress-fill red" style="width:43%"></span></div><div class="progress-meta"><span>43% used</span><span>Rs. 6,825 left</span></div></div>
+        </div>
+        <div class="tip-box"><span class="tip-icon">✦</span><p><strong>Smart tip</strong> Shopping is at 93% of its limit. Check whether any remaining purchases can wait until next month.</p></div>
+    </article>
+    <article class="glass panel" id="create-budget"><div class="panel-header"><div><h2>Create a budget</h2><p>Set a monthly category limit.</p></div></div>
+        <form class="form-grid" style="margin-top:20px">
+            <div class="form-field full"><label for="budget-name">Budget name</label><input id="budget-name" placeholder="e.g. Study expenses"></div>
+            <div class="form-field full"><label for="budget-category">Category</label><select id="budget-category"><option>Food & Dining</option><option>Transport</option><option>Shopping</option><option>Bills & Utilities</option><option>Education</option><option>Other</option></select></div>
+            <div class="form-field full"><label for="budget-limit">Monthly limit (PKR)</label><input id="budget-limit" type="number" placeholder="10000"></div>
+            <div class="form-field full"><label for="budget-month">Period</label><select id="budget-month"><option>October 2026</option><option>November 2026</option><option>December 2026</option></select></div>
+            <div class="form-actions form-field full"><button type="button" class="primary-button">Create budget (demo)</button></div>
+        </form>
+    </article>
+</section>
+
+        <footer class="footer">
+            <p>© 2026 SmartExpense. Personal finance, made clearer.</p>
+            <div class="footer-links"><a href="help.html">Help Center</a><a href="settings.html">Privacy</a><a href="settings.html">Settings</a></div>
+        </footer>
+    </main>
+</div>
+</body>
+</html>
